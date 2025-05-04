@@ -26,8 +26,14 @@ while running == True:
         print("YOU LOSE")
 
     play_again = input("Play Again? Enter: y or n: ").lower()
-    if not play_again == "y":
+    while play_again not in ("y", "n"):
+        play_again = input("Play Again? Enter: y or n: ").lower()
+
+    if play_again == "y":
+        running = True
+    elif play_again == "n":
         running = False
+ 
 
 print("THANKS FOR PLAYING")
 
