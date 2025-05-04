@@ -1,5 +1,5 @@
 # RPS
-Rock Paper Scissors
+(Rock Paper Scissors)
 Python game to play Rock, Paper, Scissors against computer. 
 
 ## Features
